@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { UserList } from './userList';
+import QuoteDash from './quoteDash'
+class App extends Component{
+  
+  render() {
+    return (
+      <div className="Main">
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <header>
+          <h1 className="logo">Stand Up</h1>
+        </header>
+
+        <section className="userList">
+          <UserList/>
+        </section>
+
+        <section className="dashboard-quote">
+          <QuoteDash/>
+        </section>
+
+
+        <section className="feed">
+
+        </section>
+      </div>
+    )
+  }
 }
 
 export default App;

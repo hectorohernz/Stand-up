@@ -1,0 +1,33 @@
+.pop-up-render{
+    color: white;
+    height: 100vh;
+    z-index:-1;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url('./mtn.jpeg');
+    background-blend-mode:darken;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pop-up-render h1{
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+.pop-up-render > button{
+    color:white;
+    font-size: 25px;
+    margin: 15px;
+    text-decoration: none;
+    background: black;
+    padding: 15px;
+    border-radius: 25px;
+}
+.pop-up-render h3{
+    position: absolute;
+    bottom: 30px;
+}

@@ -1,0 +1,31 @@
+.user{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    border-radius: 200px;
+    justify-content:space-evenly;
+     align-items: center;
+    margin: 30px;
+}
+.user button{
+    background:#4149b3;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.userList-container button:hover{
+    background:#2c3178;
+}
+.user button:hover{
+    background:#2c3178;
+}
+.unpoked{
+    color:#4149b3;
+    background: white;
+}
+.poked{
+    color:white;
+    background: #4149b3;
+}

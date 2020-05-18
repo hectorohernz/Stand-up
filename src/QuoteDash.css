@@ -1,0 +1,19 @@
+.quote-container{
+    height: 200px;
+    width: 100%;
+    border-radius: 30px;
+    background: white;
+    color:#282d74;;
+}
+.quote-container h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+.quote{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px ;
+}
