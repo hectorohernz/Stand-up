@@ -33,7 +33,7 @@ The following steps will help add the Apikey!
 	![Should Look like this](./readme/folderstuctureenv.png)
 2. After creating the .env file, you will want to add the following code inside of it, but replace `Your Api Key Goes Here` with the Api Key that was provided to.
 `TOKEN = "Your Api Key Goes Here"`
-    ![Should Look like this](./readme/Screen Shot 2020-07-17 at 11.50.58 AM.png);
+    ![Should Look like this](./readme/env.png;
 3. You should be set! 
 
 Now you should able to run the the project, with the following command.
